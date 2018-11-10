@@ -6,7 +6,7 @@ logFile="/var/log/PS.log"
 while true
 
 do
-	ps aux >> $logFile
-	echo 'working'
-	sleep $sleepTime
+    ps aux >> $logFile
+    echo 'working'
+    sleep $sleepTime
 done
